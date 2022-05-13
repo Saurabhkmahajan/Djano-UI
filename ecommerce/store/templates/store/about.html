@@ -1,0 +1,62 @@
+{% extends 'store/main.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="about">
+
+    <div class="image">
+        <img src="{% static 'images/about-img.jpg'%}" alt="">
+    </div>
+
+    <div class="content">
+        <span>welcome to our shop</span>
+        <h3>fresh and organic groceries</h3>
+        <p>We deliever fresh and organic products grown by Indian farmers from various areas. We deliever from fields to directly at your doorsteps. </p>
+        <p>Healthy Food , Healthy India!</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+
+</section>
+
+<section class="gallery">
+
+    <h1 class="title"> Our <span>Gallery</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="{% static 'images/gallery-img-1.jpg' %}" alt="">
+
+        </div>
+
+        <div class="box">
+            <img src="{% static 'images/gallery-img-2 - Copy.jpg' %}" alt="">
+
+        </div>
+
+        <div class="box">
+            <img src="{% static 'images/gallery-img-3 - Copy.jpg' %}" alt="">
+
+        </div>
+
+        <div class="box">
+            <img src="{% static 'images/gallery-img-4 - Copy.jpg' %}" alt="">
+
+        </div>
+
+        <div class="box">
+            <img src="{% static 'images/gallery-img-5.jpg' %}" alt="">
+        </div>
+
+        <div class="box">
+            <img src="{% static 'images/gallery-img-6.jpg' %}" alt="">
+            <div class="icons">
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock content %}

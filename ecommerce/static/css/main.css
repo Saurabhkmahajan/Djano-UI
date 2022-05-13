@@ -1,0 +1,26 @@
+
+h1{
+   color: red;
+   font-weight: 250;
+}
+h2{
+   color: orange;
+}
+h6{
+  color: blue;
+}
+.navbar{
+   background-color: #ADD8E6;
+   margin: auto;
+   font-weight: 500;
+}
+.card-header{
+  background-color: #F0F8FF;
+}
+.card-body{
+  background-color: #F0FFFF;
+}
+.card-footer{
+  background-color: #F0F8FF;
+}
+

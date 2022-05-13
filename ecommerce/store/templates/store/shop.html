@@ -1,0 +1,42 @@
+{% extends 'store/main.html' %}
+{% load static %}
+
+{% block content %}
+
+
+   <section class="category">
+
+      <h1 class="title"> Our <span>Category</span> </h1>
+
+      <div class="box-container">
+
+         <a href="fresh_fruits.html" class="box">
+            <img src="{% static 'images/cat-1.png' %}" alt="">
+            <h3>Fresh Fruits</h3>
+         </a>
+
+         <a href="vegetables.html" class="box">
+            <img src="{% static 'images/cat-2.png' %}" alt="">
+            <h3>Vegetables</h3>
+         </a>
+
+         <a href="Organic spices.html" class="box">
+            <img src="{% static 'images/cat-3.png' %}" alt="">
+            <h3>Organic Spices</h3>
+         </a>
+
+         <a href="Fresh meat and dairy products.html" class="box">
+            <img src="{% static 'images/cat-4.png' %}" alt="">
+            <h3>Fresh Meat & Dairy Products</h3>
+         </a>
+
+         <a href="Organic grains.html" class="box">
+            <img src="{% static 'images/cat-5.png' %}" alt="">
+            <h3>Organic Grains</h3>
+         </a>
+
+      </div>
+
+   </section>
+
+{% endblock content %}
